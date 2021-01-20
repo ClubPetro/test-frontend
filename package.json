@@ -1,0 +1,86 @@
+{
+  "name": "frontend-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "1.3.6",
+    "axios": "0.21.1",
+    "json-server": "^0.16.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-image-crop": "8.6.2",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^6.2.0",
+    "redux-persist": "6.0.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "10.0.3",
+    "@testing-library/user-event": "7.2.1",
+    "@types/jest": "24.9.1",
+    "@types/lodash": "4.14.159",
+    "@types/node": "12.12.36",
+    "@types/react": "16.9.34",
+    "@types/react-dom": "16.9.6",
+    "@types/react-image-crop": "8.1.2",
+    "@types/react-input-mask": "^3.0.0",
+    "@types/react-redux": "7.1.7",
+    "@types/react-router-dom": "5.1.4",
+    "@types/styled-components": "^5.1.7",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-react": "7.19.0",
+    "husky": "4.2.5",
+    "jest-environment-jsdom-sixteen": "1.0.3",
+    "lint-staged": "10.1.7",
+    "prettier": "1.19.1",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-https": "HTTPS=true yarn start",
+    "build": "react-scripts build",
+    "cy:run": "percy exec -- cypress run --browser chrome",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen --watchAll=false",
+    "test:watch": "react-scripts test --env=jest-environment-jsdom-sixteen",
+    "eject": "react-scripts eject",
+    "types:check": "tsc --noEmit",
+    "lint": "eslint --max-warnings 0 \"src/**/*.{ts,tsx}\" --fix",
+    "prettier:check": "prettier --check \"src/**/*.{ts,tsx}\"",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "ci:check": "yarn lint && yarn types:check && yarn test",
+    "pre:commit": "yarn prettier && yarn lint && yarn types:check && yarn test",
+    "commit": "git add . && npx git-cz"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre:commit"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
