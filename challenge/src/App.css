@@ -1,0 +1,189 @@
+.header_top_banner {
+    width: 100%;
+    height: 85px;
+    background: #000000;
+}
+
+.header_top_banner img {
+    width: 152px;
+    margin-left: 7.5%;
+}
+
+.add_location_section {
+    width: 100%;
+    height: 247px;
+    background: #4F9419;
+    display: flex;
+
+}
+
+.add_location_form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 85%;
+}
+
+.MuiFormControl-root {
+    margin: 0 14px !important;
+    width: 25%;
+}
+
+.MuiInputBase-root {
+    background: #FFFFFF;
+    border-radius: 7px;
+    color: #868686;
+    height: 48px;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    padding: 8px 18px;
+}
+
+.MuiFormLabel-root {
+    color: #FFFFFF !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+}
+
+.MuiButton-contained {
+    align-self: flex-end;
+    width: 25%;
+    height: 49px;
+    margin-left: 14px !important;
+    background: #006C18 !important;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+}
+
+.locations_itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 53px auto;
+    justify-content: center;
+}
+
+.locations_item_buttons {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+
+.locations_item_buttons_img {
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0px 5px 0px 10px;
+    cursor: pointer;
+}
+
+.locations_item {
+    width: 20%;
+    height: 222px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 14px;
+    margin: 15px 15px;
+}
+
+.locations_item_line {
+    border: 1px solid #ABABAB;
+}
+
+.locations_item img {
+    width: 56px;
+    height: 34px;
+}
+
+.locations_item h2 {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F9419;
+}
+
+.locations_item_description {
+    display: flex;
+    flex-direction: column;
+    margin: 43px 16px;
+}
+
+.locations_item p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 5px 0;
+}
+
+.edit_form {
+    display: flex;
+    width: 100%;
+}
+
+.edit_form_field {
+    width: 100%;
+    height: 32px;
+}
+
+.edit_form .MuiInputBase-root {
+    padding: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .add_location_section {
+        height: 300px;
+
+    }
+
+    .add_location_form {
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+    }
+
+    .MuiFormControl-root {
+        width: 95% !important;
+    }
+
+    .MuiButton-contained {
+        align-self: center;
+        margin: 16px !important;
+        width: 95%;
+    }
+
+    .locations_itens {
+        width: 95%;
+    }
+
+    .locations_item {
+        width: 40%;
+        
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .locations_item {
+        width: 100%;
+        
+    }
+}
