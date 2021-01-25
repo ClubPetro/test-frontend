@@ -1,0 +1,84 @@
+{
+  "add": [
+    {
+      "name": "Argentina",
+      "local": "Buenos Aires",
+      "meta": "06/2021",
+      "flag": "https://restcountries.eu/data/arg.svg",
+      "translation": "Argentina",
+      "id": 16
+    },
+    {
+      "name": "Bolivia (Plurinational State of)",
+      "local": "Salar de Uyuni",
+      "meta": "04/2023",
+      "flag": "https://restcountries.eu/data/bol.svg",
+      "translation": "Bolívia",
+      "id": 17
+    },
+    {
+      "name": "Brazil",
+      "local": "Balneário Camboriu",
+      "meta": "07/2026",
+      "flag": "https://restcountries.eu/data/bra.svg",
+      "translation": "Brasil",
+      "id": 26
+    },
+    {
+      "name": "Italy",
+      "local": "Veneza",
+      "meta": "09/2027",
+      "flag": "https://restcountries.eu/data/ita.svg",
+      "translation": "Itália",
+      "id": 28
+    },
+    {
+      "name": "United States of America",
+      "local": "Disney",
+      "meta": "09/2028",
+      "flag": "https://restcountries.eu/data/usa.svg",
+      "translation": "Estados Unidos",
+      "id": 29
+    },
+    {
+      "name": "United States of America",
+      "local": "Nova York",
+      "meta": "05/2032",
+      "flag": "https://restcountries.eu/data/usa.svg",
+      "translation": "Estados Unidos",
+      "id": 30
+    },
+    {
+      "name": "United Arab Emirates",
+      "local": "Dubai",
+      "meta": "01/2033",
+      "flag": "https://restcountries.eu/data/are.svg",
+      "translation": "Emirados árabes Unidos",
+      "id": 31
+    },
+    {
+      "name": "Peru",
+      "local": "Machu Picchu",
+      "meta": "04/2034",
+      "flag": "https://restcountries.eu/data/per.svg",
+      "translation": "Peru",
+      "id": 32
+    },
+    {
+      "name": "Italy",
+      "local": "Roma",
+      "meta": "08/2037",
+      "flag": "https://restcountries.eu/data/ita.svg",
+      "translation": "Itália",
+      "id": 33
+    },
+    {
+      "name": "Brazil",
+      "local": "Rio de Janeiro",
+      "meta": "05/2040",
+      "flag": "https://restcountries.eu/data/bra.svg",
+      "translation": "Brasil",
+      "id": 34
+    }
+  ]
+}
