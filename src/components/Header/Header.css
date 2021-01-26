@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    margin-top: -3px;
+    position: relative;
+}
+
+.logo {
+    width: 152px;
+    position: absolute;
+    left: 53px;
+}
