@@ -1,0 +1,46 @@
+{
+  "places": [
+    {
+      "country": "France",
+      "place": "Paris",
+      "goal": "01/2025",
+      "id": 1
+    },
+    {
+      "country": "Brazil",
+      "place": "Fortaleza",
+      "goal": "01/2022",
+      "id": 2
+    },
+    {
+      "country": "Argentina",
+      "place": "Buenos Aires",
+      "goal": "06/2024",
+      "id": 3
+    },
+    {
+      "country": "Canada",
+      "place": "Toronto",
+      "goal": "01/2030",
+      "id": 4
+    },
+    {
+      "country": "Brazil",
+      "place": "Rio de Janeiro",
+      "goal": "06/2023",
+      "id": 5
+    },
+    {
+      "country": "Canada",
+      "place": "Vancouver",
+      "goal": "01/2030",
+      "id": 6
+    },
+    {
+      "country": "Italy",
+      "place": "Roma",
+      "goal": "06/2025",
+      "id": 7
+    }
+  ]
+}
