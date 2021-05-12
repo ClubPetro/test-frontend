@@ -1,0 +1,39 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "flag": "https://restcountries.eu/data/bra.svg",
+      "country": "Brasil",
+      "local": "Balneario Camboriu",
+      "goal": "04/2022"
+    },
+    {
+      "country": "Estados Unidos",
+      "local": "Califórnia",
+      "goal": "02/2021",
+      "flag": "https://restcountries.eu/data/usa.svg",
+      "id": 2
+    },
+    {
+      "country": "Canadá",
+      "local": "Vancouver",
+      "goal": "03/2021",
+      "flag": "https://restcountries.eu/data/can.svg",
+      "id": 3
+    },
+    {
+      "country": "França",
+      "local": "Paris",
+      "goal": "03/2021",
+      "flag": "https://restcountries.eu/data/fra.svg",
+      "id": 4
+    },
+    {
+      "country": "Brasil",
+      "local": "Florianópolis",
+      "goal": "04/2022",
+      "flag": "https://restcountries.eu/data/bra.svg",
+      "id": 5
+    }
+  ]
+}

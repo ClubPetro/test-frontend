@@ -1,6 +1,6 @@
 # Desafio de Frontend
 
-<img src="./img/logo-clubpetro.png"
+<img src=".github/logo-clubpetro.png"
      alt="Clubpetro" width="300">
 
 - [Descrição](#descrição)
@@ -17,7 +17,7 @@ Este desafio tem como objetivo avaliar as habilidades técnicas do canditado a v
 
 O desafio consiste em desenvolver um sistema que permita o CRUD de lugares para se conhecer ao redor do mundo. Como na imagem a seguir:
 
-<img src="./img/challenge.png" alt="Desafio" >
+<img src=".github/challenge.png" alt="Desafio" >
 
 O Sistema deverá conter um formulário com 3 campos:
 
