@@ -1,0 +1,80 @@
+{
+  "schedules": [
+    {
+      "country": "Brasil",
+      "location": "Conhecer Ouro Preto",
+      "date": "05/2023",
+      "flag": "https://restcountries.eu/data/bra.svg",
+      "translations": {
+        "br": "Austrália",
+        "pt": "Austrália",
+        "nl": "Australië",
+        "hr": "Australija",
+        "fa": "استرالیا",
+        "de": "Australien",
+        "es": "Australia",
+        "fr": "Australie",
+        "ja": "オーストラリア",
+        "it": "Australia"
+      },
+      "id": "2057378717617171"
+    },
+    {
+      "country": "Argentina",
+      "date": "01/2023",
+      "location": "Buenos Aires",
+      "flag": "https://restcountries.eu/data/arg.svg",
+      "translations": {
+        "br": "Ilhas Faroé",
+        "pt": "Ilhas Faroé",
+        "nl": "Faeröer",
+        "hr": "Farski Otoci",
+        "fa": "جزایر فارو",
+        "de": "Färöer-Inseln",
+        "es": "Islas Faroe",
+        "fr": "Îles Féroé",
+        "ja": "フェロー諸島",
+        "it": "Isole Far Oer"
+      },
+      "id": "19924271720560682"
+    },
+    {
+      "country": "Egito",
+      "location": "Conhecer as pirâmides do egito",
+      "date": "01/2034",
+      "flag": "https://restcountries.eu/data/egy.svg",
+      "translations": {
+        "br": "Egito",
+        "pt": "Egipto",
+        "nl": "Egypte",
+        "hr": "Egipat",
+        "fa": "مصر",
+        "de": "Ägypten",
+        "es": "Egipto",
+        "fr": "Égypte",
+        "ja": "エジプト",
+        "it": "Egitto"
+      },
+      "id": "9208946390153583"
+    },
+    {
+      "country": "Itália",
+      "date": "01/2025",
+      "location": "Tour gastronômico",
+      "flag": "https://restcountries.eu/data/ita.svg",
+      "translations": {
+        "br": "Itália",
+        "pt": "Itália",
+        "nl": "Italië",
+        "hr": "Italija",
+        "fa": "ایتالیا",
+        "de": "Italien",
+        "es": "Italia",
+        "fr": "Italie",
+        "ja": "イタリア",
+        "it": "Italia"
+      },
+      "id": "9475451808225779"
+    }
+  ]
+}

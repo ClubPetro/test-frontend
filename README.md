@@ -57,3 +57,24 @@ Quando o usuário clicar em "Adicionar", o formulário deverá ser resetado e o 
 - O prazo de entrega para este desafio é de 2 (duas) semanas, contando a partir do dia em que o candidato recebeu o email com o link do repositório;
 - Ao finalizar o desafio, o candidato deverá submeter o desafio no questionário disponível na sua área de candidato na plataforma(https://menvievagas.com.br/vagas/fam%C3%8Dliapires/) do Processo Seletivo. É só clicar em RESPONDER no questionário e inserir o link do seu PR.
 Em caso de dúvidas, enviar um e-mail para jobs@clubpetro.com.br
+
+### Instruções para rodar a aplicação
+
+O presente repositório possui a seguinte arquitetura de diretório:
+
+```
+root -|
+     - frontend
+     - img
+     - server/db.json
+```
+No diretório ```frontend``` podemos encontrar a aplicação propriamente dita. Para executá-la basta executar ```npm install``` ou ```yarn``` para instalar os módulos necessários e depois executar o comando ```yarn start``` ou NPM, caso prefira utilizá-lo. Para executar os testes automatizados basta executar o código ```yarn test```.
+
+Não é forçoso lembrar que o frontend consome uma API criada em ```JSON-SERVER```, que também deve ser instalada e executada em ambiente local, utilizando a porta 8000, conforme este endereço: ```http://localhost:8000```
+
+O arquivo contido na pasta com caminho ```server/db.json``` deve ser escutado utilizando o json-server, conforme documentação https://www.npmjs.com/package/json-server
+
+O seguinte comando resume toda a operação do backend:
+```json-server --watch db.json --port 8000```
+
+Lembrando que o comando ```json-server``` deve ser executado dentro da pasta server ```cd server``` enquanto que o ```yarn start``` deve ser executado dentro da pasta frontend ```cd frontend```
